@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swipe - Mobile Banking Landing Page Design</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/9cfd8f728d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-logo">Swipe</div>
+        <div class="nav-links">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="#our-team" class="nav-link">Our Team</a>
+          <div class="nav-link btn">Get started</div>
+        </div>
+      </nav>
+      <main class="content">
+        <div class="left col">
+          <div class="sub-header">hi there!</div>
+          <div class="header">
+            let's start <span>&#8594;</span><br />
+            something big <br />
+            together
+          </div>
+
+          <div class="stats">
+            <div class="stat-1 stat">
+              <div class="stat-num">3</div>
+              <div class="stat-copy">Years of <br />active work</div>
+            </div>
+            <div class="stat-2 stat">
+              <div class="stat-num">5M</div>
+              <div class="stat-copy">Satisfied <br />customers</div>
+            </div>
+          </div>
+        </div>
+        <div class="right col">
+          <div class="card">
+            <div class="row">
+              <div class="card-name">Swipe</div>
+              <div class="master-logo"><img src="mastercard.png" alt="" /></div>
+            </div>
+            <div class="row">
+              <div class="chip"><img src="chip.png" alt="" /></div>
+              <div class="network"><img src="network.png" alt="" /></div>
+            </div>
+            <div class="row">
+              <div class="card-num">5325 4141 2355 5782</div>
+            </div>
+            <div class="row">
+              <div class="exp-date">03/21</div>
+            </div>
+          </div>
+          <div class="card-balance">
+            <div class="card-col">
+              <div class="card-title">Your balance</div>
+              <div class="card-amount">USD 4300.68</div>
+            </div>
+            <div class="card-col"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <section class="about-container" id="about">
+      <div class="cursor"></div>
+      <div class="wrapper">
+        <div class="project-list">
+          <div class="project p-1">
+            <div class="project-title">
+              <h1>
+                Fastest Way to Pay <br />
+                In-store & Online
+              </h1>
+            </div>
+            <div class="project-categ">Swipe Network</div>
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project p-2">
+            <div class="project-title">
+              <h1>
+                Pay anyone directly <br />
+                from your bank account
+              </h1>
+            </div>
+            <div class="project-categ">Swipe Money App</div>
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project p-3">
+            <div class="project-title">
+              <h1>
+                Want it? <br />
+                No more waiting for it
+              </h1>
+            </div>
+            <div class="project-categ">Swipe Postpaid</div>
+            <div class="project-overlay"></div>
+          </div>
+          <div class="project p-4">
+            <div class="project-title">
+              <h1>
+                Unlimited Cashback <br />
+                Every time
+              </h1>
+            </div>
+            <div class="project-categ">Swipe Credit</div>
+            <div class="project-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pricing-container" id="pricing">
+      <div class="panel pricing-table">
+        <div class="pricing-plan">
+          <img src="plan-basic.svg" alt="" class="pricing-img" />
+          <h2 class="pricing-header">Personal</h2>
+          <ul class="pricing-features">
+            <li class="pricing-features-item">Custom domains</li>
+            <li class="pricing-features-item">
+              Sleeps after 30 mins of inactivity
+            </li>
+          </ul>
+          <span class="pricing-price">Free</span>
+          <a href="#/" class="pricing-button">Sign up</a>
+        </div>
+
+        <div class="pricing-plan">
+          <img src="plan-premium.svg" alt="" class="pricing-img" />
+          <h2 class="pricing-header">Small team</h2>
+          <ul class="pricing-features">
+            <li class="pricing-features-item">Never sleeps</li>
+            <li class="pricing-features-item">
+              Multiple workers for more powerful apps
+            </li>
+          </ul>
+          <span class="pricing-price">$150</span>
+          <a href="#/" class="pricing-button is-featured">Free trial</a>
+        </div>
+
+        <div class="pricing-plan">
+          <img src="plan-platinum.svg" alt="" class="pricing-img" />
+          <h2 class="pricing-header">Enterprise</h2>
+          <ul class="pricing-features">
+            <li class="pricing-features-item">Dedicated</li>
+            <li class="pricing-features-item">Simple horizontal scalability</li>
+          </ul>
+          <span class="pricing-price">$400</span>
+          <a href="#/" class="pricing-button">Free trial</a>
+        </div>
+      </div>
+    </section>
+    <div class="contact-container" id="our-team">
+      <div class="contact-card contact-card0">
+        <div class="contact-border">
+          <h2>Naresh Goud Aakula</h2>
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/naresh-goud-828a25190"
+              ><i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-card contact-card1">
+        <div class="contact-border">
+          <h2>Jennifer Zappala</h2>
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/jennifer-zappala">
+              <i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-card contact-card2">
+        <div class="contact-border">
+          <h2>Abhinai Vytla</h2>
+          <div class="icons">
+            <a
+              href="https://www.linkedin.com/mwlite/in/abhinai-vytla-7b788b131"
+            >
+              <i class="fa fa-linkedin" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
